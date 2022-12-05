@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def divisible_by_2(my_list=[]):
     """finds all multiples of 2 in a list."""
-    if len(my_list) == 0:
+    if len(my_list) == 0 or my_list is None:
         return None
     new_list = []
     for i in range(len(my_list)):
