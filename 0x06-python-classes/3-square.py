@@ -4,22 +4,23 @@
 @Author: Aymeric Mbou
 """
 
+
 class Square:
     """ Define Square
 
     Attributes:
-    size: size of square
+        size: size of square
 
     """
     def __init__(self, size=0):
         """ the init methot for Square class
 
         Args:
-          size: the size of square
+            size: the size of square
 
-        Raise:
-          TypeError: Exceptin if size is not an integer
-          ValueError: Exception if size is less than 0
+        Raises:
+            TypeError: Exceptin if size is not an integer
+            ValueError: Exception if size is less than 0
 
         """
         if type(size) is not int:
