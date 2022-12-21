@@ -6,8 +6,7 @@
 
 
 class Square:
-    """
-    Define Square
+    """Define Square
 
     Attributes:
     size: the size of the square
