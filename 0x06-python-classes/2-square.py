@@ -18,7 +18,7 @@ class Square:
         """
         the __init__ method for a square class
 
-        args:
+        Args:
         size: a private instance size
 
         Raises:
