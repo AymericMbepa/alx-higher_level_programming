@@ -16,9 +16,9 @@ class Student:
            last_name: student last_name
            age: student age
         """
-        self.__first_name = first_name
-        self.__last_name = last_name
-        self._age = age
+        self.first_name = first_name
+        self.last_name = last_name
+        self.age = age
 
     def to_json(self):
         """retrieves a dictionary representation of a Student instance"""
