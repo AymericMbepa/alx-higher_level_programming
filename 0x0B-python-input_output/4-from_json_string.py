@@ -5,7 +5,9 @@ function that returns an object (Python data structure)
 
 """
 
+
 import json
+
 
 def from_json_string(my_str):
     """return object representation by a JSON string"""
