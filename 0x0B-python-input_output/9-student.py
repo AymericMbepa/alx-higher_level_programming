@@ -22,5 +22,4 @@ class Student:
 
     def to_json(self):
         """retrieves a dictionary representation of a Student instance"""
-        return {key: value for (key, value) in self.__dict__.items()
-                if key in list(self.__dict__.keys())}
+        return self.__dict__
