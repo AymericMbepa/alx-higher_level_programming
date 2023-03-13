@@ -1,7 +1,6 @@
 #!/usr/bin/node
 const args = process.argv.slice(2);
-switch (args.length)
-{
+switch (args.length) {
     case 0:
     console.log('No argument');
     break;
