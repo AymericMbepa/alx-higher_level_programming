@@ -19,11 +19,11 @@ if __name__ == '__main__':
                          passwd=password, db=db_name)
 
     cur = db.cursor()
-    cur.execute("SELECT * FROM states WHERE states.name LIKE BINARY 
-'N%' ORDER BY states.id ASC")
+    cur.execute("SELECT * FROM states WHERE states.name LIKE BINARY\
+                'N%' ORDER BY states.id ASC")
 
     result = cur.fetchall()
-    for row in results:
+    for row in result:
         print(row)
 
     cur.close()
