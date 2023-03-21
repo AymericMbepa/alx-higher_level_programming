@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+"""
+this module  lists all states with a name starting with N (upper N)
+from the database hbtn_0e_0_usa
+
+Author: Aymeric Mbepa
+"""
 
 import MySQldb
 import sys
