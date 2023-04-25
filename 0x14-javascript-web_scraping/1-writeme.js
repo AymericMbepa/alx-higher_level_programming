@@ -10,6 +10,6 @@ const stringtowrite = process.argv[3];
 
 fs.writeFile(filePath, stringtowrite, 'utf-8', function (err) {
     if (err) {
-	console.log(err);
+	console.error(err);
     }
 });
